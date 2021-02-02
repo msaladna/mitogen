@@ -20,6 +20,7 @@ To avail of fixes in an unreleased version, please download a ZIP file
 v0.2.10 (unreleased)
 --------------------
 
+* :gh:issue:`636` os.chdir fails if the sudo/become user lacks adequate permissions to chdir prior to task
 * :gh:issue:`597` mitogen does not support Ansible 2.8 Python interpreter detection
 * :gh:issue:`655` wait_for_connection gives errors
 * :gh:issue:`672` cannot perform relative import error
